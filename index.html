@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Iris Jeong</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="nav-logo">
+					<a href="#home">
+						<img src="icons/logo.svg" alt="Iris Jeong Logo" />
+					</a>
+				</div>
+
+				<ul class="nav-links">
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+
+				<div class="mobile-nav">
+					<button class="menu-button" type="button">
+						<img src="icons/hamburger-menu.svg" alt="Menu" />
+					</button>
+
+					<aside>
+						<div class="close-button-container">
+							<button class="close-button">
+								<img src="icons/close.svg" alt="Close" />
+							</button>
+						</div>
+
+						<nav>
+							<ul class="nav-links-mobile">
+								<li><a href="#about">About</a></li>
+								<li><a href="#projects">Projects</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+					</aside>
+				</div>
+			</nav>
+		</header>
+
+		<div id="content">
+			<main>
+				<section id="home">
+					<div>
+						<h1>Hey, I'm <span>Iris</span></h1>
+					</div>
+					<div>
+						<h2>A Software Engineer</h2>
+					</div>
+					<div class="bio">
+						<p>
+							I have a passion for building user-intuitive web applications and
+							integrating back-end technologies.
+						</p>
+					</div>
+					<a
+						class="email-button hello-button"
+						href="mailto:irisjeong@gmail.com"
+					>
+						Say Hello
+						<span></span>
+						<img src="icons/wave-icon.svg" alt="Hand waving icon" />
+					</a>
+				</section>
+				<!-- #home -->
+
+				<section id="about">
+					<h2 class="section-heading">About Me</h2>
+					<div id="about-content" class="section-content">
+						<div class="about-description">
+							<p>
+								Hi, my name is Iris! I’m a software engineer who specializes in
+								web development. I recently graduated from the
+								<span> University of Southern California</span>
+								with a major in Cognitive Science and a minor in Web
+								Technologies and Applications.
+							</p>
+							<br />
+							<p>
+								I have experience designing and developing web applications
+								using various technologies, from the fundamental trio of
+								<span> HTML, CSS, and JavaScript</span> to more robust
+								frameworks and platforms like
+								<span> PHP, React, and Laravel</span>. My passion extends beyond
+								just aesthetics and I love seeking new and improved methods to
+								write efficient and scalable code with the goal of creating
+								seamless user experiences.
+							</p>
+							<br />
+							<p>
+								When I’m not at my computer, you can find me at the climbing gym
+								scaling a V4, working on creating my perfect matcha bowl at my
+								pottery wheel, or baking a bunch of sweets in the kitchen!
+							</p>
+						</div>
+						<div class="about-image">
+							<img src="images/profilepicture.svg" alt="Photo of Iris" />
+							<div id="about-image-backdrop"></div>
+						</div>
+					</div>
+				</section>
+				<!-- #about -->
+
+				<section id="projects">
+					<div class="section-content">
+						<h2 class="section-heading">My Projects</h2>
+						<div class="project">
+							<div class="project-image-container">
+								<img
+									class="project-image"
+									src="images/database-app.svg"
+									alt="Database application"
+								/>
+							</div>
+							<div class="project-content">
+								<h3>
+									Project
+									<span class="project-number">01</span>
+								</h3>
+								<h4>Surgical Education Database</h4>
+								<p>
+									A centralized database web application for the residency and
+									fellowship program at USC Keck School of Medicine.
+								</p>
+								<div class="project-tech-list">
+									<ul>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>Bootstrap</li>
+										<li>Laravel</li>
+										<li>Heroku</li>
+									</ul>
+								</div>
+								<div class="project-links">
+									<a
+										href="https://github.com/iris-jeong/residency-database-app"
+										target="_blank"
+									>
+										<img
+											class="github-icon"
+											src="icons/github-link-icon.svg"
+											alt="Link to github."
+										/>
+									</a>
+									<a
+										href="https://residency-database-app.herokuapp.com/"
+										target="_blank"
+									>
+										<img
+											class="website-icon"
+											src="icons/link-icon.svg"
+											alt="Link to database application."
+										/>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- .project (1) -->
+
+						<div class="project">
+							<div class="project-image-container">
+								<img
+									class="project-image"
+									src="images/travel-app.svg"
+									alt="Travel social media application"
+								/>
+							</div>
+							<div class="project-content">
+								<h3>
+									Project
+									<span class="project-number">02</span>
+								</h3>
+								<h4>Trek</h4>
+								<p>
+									A travel-focused social media app enabling personalized
+									itinerary curation and seamless sharing to foster inspiration
+									in the community.
+								</p>
+								<div class="project-tech-list">
+									<ul>
+										<li>React</li>
+										<li>Material UI</li>
+										<li>JSON Server</li>
+									</ul>
+								</div>
+								<div class="project-links">
+									<a
+										href="https://github.com/iris-jeong/trek-app"
+										target="_blank"
+									>
+										<img
+											class="github-icon"
+											src="icons/github-link-icon.svg"
+											alt="Link to github."
+										/>
+									</a>
+									<a href="https://cj6dxm.csb.app/" target="_blank">
+										<img
+											class="website-icon"
+											src="icons/link-icon.svg"
+											alt="Link to travel social media application."
+										/>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- .project (2) -->
+
+						<div class="project">
+							<div class="project-image-container">
+								<img
+									class="project-image"
+									src="images/academic-planner-app.svg"
+									alt="Academic planner application"
+								/>
+							</div>
+							<div class="project-content">
+								<h3>
+									Project
+									<span class="project-number">03</span>
+								</h3>
+								<h4>Academic Course Planner</h4>
+								<p>
+									An app designed to help USC students in their academic journey
+									by ensuring timely fulfillment of graduation requirements.
+								</p>
+								<div class="project-tech-list">
+									<ul>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>Bootstrap</li>
+										<li>PHP</li>
+										<li>SQL</li>
+										<li>Python</li>
+									</ul>
+								</div>
+								<div class="project-links">
+									<a
+										href="https://github.com/iris-jeong/academic-planner-app"
+										target="_blank"
+									>
+										<img
+											class="github-icon"
+											src="icons/github-link-icon.svg"
+											alt="Link to github."
+										/>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- .project (3) -->
+
+						<div class="project">
+							<div class="project-image-container">
+								<img
+									class="project-image"
+									src="images/task-app.svg"
+									alt="Travel social media application"
+								/>
+							</div>
+							<div class="project-content">
+								<h3>
+									Project
+									<span class="project-number">04</span>
+								</h3>
+								<h4>Task Manager</h4>
+								<p>
+									A simple task management application with a clean user
+									interface for adding and viewing tasks by month or by week.
+								</p>
+								<div class="project-tech-list">
+									<ul>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>JavaScript</li>
+										<li>jQuery</li>
+										<li>AJAX</li>
+									</ul>
+								</div>
+								<div class="project-links">
+									<a
+										href="https://github.com/iris-jeong/task-manager-app"
+										target="_blank"
+									>
+										<img
+											class="github-icon"
+											src="icons/github-link-icon.svg"
+											alt="Link to github."
+										/>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- .project (4) -->
+					</div>
+				</section>
+				<!-- #projects -->
+
+				<section id="contact">
+					<h2>Get in Touch</h2>
+					<div class="section-content">
+						<p>Have a question or just want to chat?</p>
+						<p>Feel free to reach out!</p>
+						<a
+							class="email-button hello-button"
+							href="mailto:irisjeong@gmail.com"
+						>
+							Say Hello
+							<span></span>
+							<img src="icons/wave-icon.svg" alt="Hand waving icon" />
+						</a>
+					</div>
+				</section>
+				<!-- #contact-->
+			</main>
+		</div>
+		<!-- #content -->
+
+		<footer>
+			<div class="social-links">
+				<a href="https://github.com/iris-jeong" target="_blank">
+					<img
+						class="github-icon"
+						src="icons/github-link-icon.svg"
+						alt="Link to github."
+					/>
+				</a>
+				<a href="https://www.linkedin.com/in/irisjeong/" target="_blank">
+					<img
+						class="linkedin-icon"
+						src="icons/linkedin.svg"
+						alt="Link to LinkedIn."
+					/>
+				</a>
+				<a href="https://twitter.com/irisjeong_" target="_blank">
+					<img
+						class="twitter-icon"
+						src="icons/twitter.svg"
+						alt="Link to Twitter."
+					/>
+				</a>
+			</div>
+			<div>Designed & Built by Iris Jeong</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
