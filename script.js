@@ -13,7 +13,7 @@ closeButton.addEventListener('click', () => {
 
 // -- Animations on Scroll --
 const itemsToAnimate = document.querySelectorAll(
-	'.about-description p, .about-image img, .about-image div, #contact h2, #contact p, #contact a, .project-image, .project-content > h3, .project-content > h4, .project-content p, .project-tech-list, .project-links, .project-grid-item'
+	'.about-description p, .about-image img, .about-image div, #contact h2, #contact p, #contact a, .project-image, .project-content > h3, .project-content > h4, .project-content p, .project-tech-list, .project-links, .project-grid-title, .project-grid-item, .section-heading'
 );
 
 let options = {
