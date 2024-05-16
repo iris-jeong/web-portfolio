@@ -374,7 +374,6 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 }
-
 .project-tech-list li {
 	font-family: var(--font-mono);
 	font-size: 12px;
@@ -624,7 +623,7 @@ footer {
 		height: 240px;
 	}
 	.project-image-container {
-		width: 80%;
+		width: 95%;
 	}
 	.project {
 		flex-direction: row;

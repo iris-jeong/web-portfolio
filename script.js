@@ -117,7 +117,7 @@ websiteIcons.forEach((icon) => {
 // -- Social Links Hover --
 const linkedInIcon = document.querySelector('.linkedin-icon');
 const twitterIcon = document.querySelector('.twitter-icon');
-const resumeIcon = document.querySelector('.resume-icon');
+// const resumeIcon = document.querySelector('.resume-icon');
 
 linkedInIcon.addEventListener('mouseenter', () => {
 	linkedInIcon.src = 'icons/linkedin-hover.svg';
@@ -136,6 +136,6 @@ twitterIcon.addEventListener('mouseleave', () => {
 // resumeIcon.addEventListener("mouseenter", () => {
 // 	resumeIcon.src = "icons/resume-hover.svg";
 // });
-resumeIcon.addEventListener('mouseleave', () => {
-	resumeIcon.src = 'icons/resume.svg';
-});
+// resumeIcon.addEventListener('mouseleave', () => {
+// 	resumeIcon.src = 'icons/resume.svg';
+// });
