@@ -16,6 +16,7 @@
 	--font-mono: 'Roboto Mono', sans-serif;
 	--font-mono-light: 'Roboto Mono Light', sans-serif;
 	--slate-dark: #54566f;
+	--slate-darker: #3b3e5f;
 	--slate: #686a88;
 	--slate-light: #9294a5;
 	--slate-lighter: #f0f1ff;
@@ -54,7 +55,7 @@ ul {
 	list-style-type: none;
 }
 /* * * * * * * * * * * * * *  Header  * * * * * * * * * * * * * */
-header {
+body > header {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -203,7 +204,8 @@ nav {
 /* * * * * * * * * * * * * *  Home  * * * * * * * * * * * * * */
 #home {
 	height: 100vh;
-	padding-top: 80px;
+	/* padding-top: 80px; */
+	padding: 0px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -257,7 +259,7 @@ section {
 	display: flex;
 	align-items: center;
 	margin: 10px 0px 40px;
-	color: var(--slate);
+	color: var(--slate-dark);
 	white-space: nowrap;
 }
 .section-heading::after {
@@ -291,8 +293,8 @@ section {
 	justify-content: center;
 }
 .about-image img {
-	width: 225px;
-	height: 225px;
+	width: 300px;
+	height: 300px;
 	border-radius: 50%;
 	margin-left: 24px;
 	margin-bottom: 0px;
@@ -308,8 +310,8 @@ section {
 	position: absolute;
 	z-index: -1;
 	display: block;
-	width: 230px;
-	height: 240px;
+	width: 310px;
+	height: 320px;
 	top: -5px;
 	border-radius: 50%;
 	background-color: var(--blue);
@@ -400,7 +402,8 @@ section {
 #projects .section-content > h3 {
 	text-align: center;
 	font-size: 28px;
-	margin-bottom: 28px;
+	margin-bottom: 50px;
+	color: var(--slate-dark);
 }
 .projects-grid {
 	display: grid;
@@ -418,10 +421,22 @@ section {
 	height: 100%;
 	color: var(--slate-light);
 }
-.projects-grid h4 {
+.projects-grid-item-header {
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px;
 	margin-bottom: 10px;
+}
+.projects-grid-item-header h4 {
 	color: var(--slate);
 	font-size: 18px;
+	text-wrap: nowrap;
+}
+.projects-grid-item-header img {
+	width: 32px;
 }
 .projects-grid a:hover li {
 	color: var(--slate-light);
@@ -498,19 +513,6 @@ footer {
 	.bio {
 		max-width: 600px;
 	}
-	#about-content {
-		flex-direction: row;
-	}
-	.about-description {
-		max-width: 55%;
-	}
-	#about-content p {
-		padding-right: 20px;
-	}
-	.about-image {
-		max-width: 40%;
-		margin: 0 0 0 auto;
-	}
 }
 @media (min-width: 768px) {
 	main {
@@ -584,8 +586,23 @@ footer {
 	.email-button {
 		margin-top: 50px;
 	}
-	.about-description {
-		max-width: 60%;
+	#about-content {
+		flex-direction: row;
+	}
+	#about-content p {
+		padding-right: 20px;
+	}
+	.about-image {
+		max-width: 40%;
+		margin: 0 0 0 auto;
+	}
+	.about-image img {
+		width: 225px;
+		height: 225px;
+	}
+	.about-image div {
+		width: 230px;
+		height: 240px;
 	}
 	.project-image-container {
 		width: 80%;
