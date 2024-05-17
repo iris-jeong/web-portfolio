@@ -55,7 +55,7 @@ ul {
 	list-style-type: none;
 }
 /* * * * * * * * * * * * * *  Header  * * * * * * * * * * * * * */
-body > header {
+.page-header {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -533,7 +533,7 @@ footer {
 	}
 }
 @media (min-width: 576px) {
-	header {
+	.page-header {
 		height: 100px;
 	}
 	.bio {
@@ -548,7 +548,7 @@ footer {
 		min-height: 100vh;
 		line-height: 1.5;
 	}
-	header {
+	.page-header {
 		padding: 0px 50px;
 	}
 	section {
