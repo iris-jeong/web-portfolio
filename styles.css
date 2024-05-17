@@ -399,7 +399,9 @@ section {
 .project-image-container {
 	position: relative;
 }
-
+.note {
+	color: #a4a6b3;
+}
 .project-grid-title {
 	text-align: center;
 	font-size: 28px;
